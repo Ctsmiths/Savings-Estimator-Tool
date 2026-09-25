@@ -1,0 +1,14 @@
+## v2026.11.1 - 2026-09-24
+- Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
+- One password now protects every sheet in every tool.
+- The Savings Estimator's sheets now use the same password as the other tools (previously a different one).
+- Fixed: choosing the climate region "South West" or "West" turned every result on every sheet into #N/A. All twelve regions now calculate in every language.
+- Corrected spelling mistakes in a chiller label and the help text.
+- Fixed: Operating Hours / Day and Operating Days / Week no longer accept 0 (it produced #DIV/0! errors on the results); the entry is now rejected with the existing message.
+- The workbook's file name no longer ends in _ML (Belimo Energy Valve Estimator Tool.xlsm). Automatic updates and Download Fresh Copy fetch it under the new name.
+- You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
+
+## v2026.11.0 - 2026-09-22
+- Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
+- Added a "Check for Updates" button and a "Download Fresh Copy" button to the About screen, so you can check manually or grab a known-good copy any time.
+- Updates now save through a normal Windows Save As dialog - you pick where the new version goes, just like saving any other file. Your current copy is never touched or deleted.
