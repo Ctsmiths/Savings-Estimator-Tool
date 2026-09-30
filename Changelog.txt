@@ -1,3 +1,9 @@
+## v2026.12.0 - 2026-09-30
+- Now follows Belimo's original estimator: its six load points, an Operating Weeks / Year input, minimum pump flow % and head, chiller pump flow and head inputs, an "Other savings to consider" block and its default plant. On Belimo's own inputs it gives Belimo's results to the dollar.
+- Annual operating hours can no longer exceed your schedule (hours factor capped at 1.00); hot-region results are lower. New Basis line under the Results headline.
+- Fixed: CO2, tree seedling and homes equivalents use kWh saved, not dollars; Delta-Ts entered in Metric, the Results explorer and tables, the pie charts and negative NPV labels now show the right figures.
+- The Results explorer opens on your Future Delta-T. New calculation methodology section in the manual.
+
 ## v2026.11.1 - 2026-09-24
 - Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
 - One password now protects every sheet in every tool.
